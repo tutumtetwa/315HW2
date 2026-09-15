@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Tutu Mtetwa - Student Profile Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <h1>Student Activity and Professional Profile</h1>
+        <p>Complete the form to create your profile preview.</p>
+    </header>
+
+    <nav>
+        <a href="https://ice.truman.edu/~iw34416/">Portfolio Home</a>
+    </nav>
+
+    <main>
+        <section>
+            <h2>Profile Information</h2>
+
+            <form id="profileForm">
+                <label for="nameInput">Full Name:</label>
+                <input type="text" id="nameInput">
+
+                <label for="emailInput">Email:</label>
+                <input type="email" id="emailInput">
+
+                <label for="ageInput">Age:</label>
+                <input type="number" id="ageInput">
+
+                <label for="majorInput">Major or Academic Area:</label>
+                <input type="text" id="majorInput">
+
+                <label for="graduationInput">
+                    Expected Graduation Year:
+                </label>
+                <input type="number" id="graduationInput">
+
+                <label for="interestInput">
+                    Activity or Project Interest:
+                </label>
+
+                <select id="interestInput">
+                    <option value="">Choose an interest</option>
+                    <option value="Web Development">
+                        Web Development
+                    </option>
+                    <option value="Software Engineering">
+                        Software Engineering
+                    </option>
+                    <option value="Cybersecurity">
+                        Cybersecurity
+                    </option>
+                    <option value="Database Systems">
+                        Database Systems
+                    </option>
+                    <option value="Basketball Analytics">
+                        Basketball Analytics
+                    </option>
+                </select>
+
+                <label for="experienceInput">
+                    Years of Programming Experience:
+                </label>
+                <input type="number" id="experienceInput">
+
+                <label for="introductionInput">
+                    Short Introduction:
+                </label>
+
+                <textarea
+                    id="introductionInput"
+                    rows="5"
+                    placeholder="Write at least 20 characters about yourself."
+                ></textarea>
+
+                <button type="submit">Preview Profile</button>
+            </form>
+
+            <div id="messageArea"></div>
+        </section>
+
+        <section>
+            <h2>Profile Preview</h2>
+
+            <div id="profileSummary">
+                Your completed profile will appear here.
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>Created by Tutu Mtetwa</p>
+        <p>CS 315 Internet Programming - Fall 2026</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

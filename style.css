@@ -1,0 +1,129 @@
+body {
+    margin: 0;
+    background-color: #eeeeee;
+    color: #222222;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    background-color: #222222;
+    color: white;
+    padding: 30px;
+    text-align: center;
+}
+
+header h1 {
+    color: #f47c20;
+}
+
+nav {
+    background-color: #f47c20;
+    border-bottom: 2px solid #222222;
+    padding: 15px;
+    text-align: center;
+}
+
+nav a {
+    color: #222222;
+}
+
+main {
+    margin: 20px auto;
+    max-width: 800px;
+    padding: 10px;
+}
+
+section {
+    background-color: white;
+    border: 1px solid #cccccc;
+    margin: 20px;
+    padding: 20px;
+}
+
+section h2 {
+    color: #d85f09;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+
+input {
+    border: 2px solid #aaaaaa;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    padding: 8px;
+    width: 95%;
+}
+
+select {
+    border: 2px solid #aaaaaa;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    padding: 8px;
+    width: 98%;
+}
+
+textarea {
+    border: 2px solid #aaaaaa;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    padding: 8px;
+    width: 95%;
+}
+
+button {
+    background-color: #f47c20;
+    border: 1px solid #222222;
+    color: #222222;
+    font-size: 16px;
+    margin-top: 20px;
+    padding: 10px 20px;
+}
+
+.error {
+    background-color: #fff0f0;
+    border: 2px solid red;
+}
+
+.success {
+    background-color: #f0fff0;
+    border: 2px solid green;
+}
+
+#messageArea {
+    margin-top: 20px;
+    padding: 12px;
+    white-space: pre-line;
+}
+
+.error-message {
+    background-color: #ffe5e5;
+    border: 1px solid red;
+    color: #990000;
+}
+
+.success-message {
+    background-color: #e5ffe5;
+    border: 1px solid green;
+    color: #006600;
+}
+
+#profileSummary {
+    line-height: 1.7;
+    white-space: pre-line;
+}
+
+footer {
+    background-color: #222222;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+footer p {
+    margin: 5px;
+}
